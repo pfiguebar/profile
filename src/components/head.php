@@ -20,7 +20,6 @@
     <link rel="stylesheet" href="<?= CSS; ?>portfolio.css">
     <link rel="stylesheet" href="<?= CSS; ?>skill.css">
     <link rel="stylesheet" href="<?= CSS; ?>contact.css">
-    <link rel="stylesheet" href="<?= CSS; ?>terminal.css">
     <script src="<?= JS; ?>dark.js"></script>
     <script src="<?= JS; ?>nav.js"></script>
     <script src="<?= JS; ?>terminal.js"></script>

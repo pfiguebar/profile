@@ -31,7 +31,7 @@
         <?php include __DIR__ . '/src/inc/sections/experiencie.php'; ?>
         <?php include __DIR__ . '/src/inc/sections/portfolio.php'; ?>       
         <?php include __DIR__ . '/src/inc/sections/skill.php'; ?>      
-        <?php include __DIR__ . '/src/inc/sections/lang.php'; ?>        
+        <?php include __DIR__ . '/src/components/contact.php'; ?>        
     </main>
 
     <footer>       

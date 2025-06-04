@@ -11,13 +11,13 @@
                     <li>
                         <span> Frontend </span>
                         <ul>
-                            <li><img src="<?= IMAGES; ?>skills/html5.svg"></li>
-                            <li><img src="<?= IMAGES; ?>skills/css3.svg"></li>
-                            <li><img src="<?= IMAGES; ?>skills/bootstrap.svg"></li>
-                            <li><img src="<?= IMAGES; ?>skills/tailwind.svg"></li>
-                            <li><img src="<?= IMAGES; ?>skills/sass.svg"></li>
-                            <li><img src="<?= IMAGES; ?>skills/javascript.svg"></li>
-                            <li><img src="<?= IMAGES; ?>skills/jquery.svg" class="icono"></li>
+                            <li><img src="<?= IMAGES; ?>skills/html5.svg" class="w_h_icon"></li>
+                            <li><img src="<?= IMAGES; ?>skills/css3.svg" class="w_h_icon"></li>
+                            <li><img src="<?= IMAGES; ?>skills/bootstrap.svg" class="w_h_icon"></li>
+                            <li><img src="<?= IMAGES; ?>skills/tailwind.svg" class="w_h_icon"></li>
+                            <li><img src="<?= IMAGES; ?>skills/sass.svg" class="w_h_icon"></li>
+                            <li><img src="<?= IMAGES; ?>skills/javascript.svg" class="w_h_icon"></li>
+                            <li><img src="<?= IMAGES; ?>skills/jquery.svg" class="w_h_icon icono"></li>
                         </ul>
                     </li>
                 </ul>
@@ -28,8 +28,8 @@
                     <li>
                         <span> Backend </span>
                         <ul>
-                            <li><img src="<?= IMAGES; ?>skills/php.svg"></li>
-                            <li><img src="<?= IMAGES; ?>skills/mysql.svg"></li>
+                            <li><img src="<?= IMAGES; ?>skills/php.svg" class="w_h_icon"></li>
+                            <li><img src="<?= IMAGES; ?>skills/mysql.svg" class="w_h_icon"></li>
                         </ul>
                     </li>
                 </ul>
@@ -40,16 +40,16 @@
                     <li>
                         <span> Other </span>
                         <ul>
-                            <li><img src="<?= IMAGES; ?>skills/git.svg"></li>
-                            <li><img src="<?= IMAGES; ?>skills/github.svg" class="icono"></li>
-                            <li><img src="<?= IMAGES; ?>skills/openai.svg" class="icono"></li>
-                            <li><img src="<?= IMAGES; ?>skills/vscode.svg"></li>
-                            <li><img src="<?= IMAGES; ?>skills/linux.svg"></li>
-                            <li><img src="<?= IMAGES; ?>skills/windows.svg" class="icono"></li>
-                            <li><img src="<?= IMAGES; ?>skills/figma.svg"></li>
-                            <li><img src="<?= IMAGES; ?>skills/photoshop.svg"></li>
-                            <li><img src="<?= IMAGES; ?>skills/woocommerce.svg"></li>
-                            <li><img src="<?= IMAGES; ?>skills/wordpress.svg"></li>
+                            <li><img src="<?= IMAGES; ?>skills/git.svg" class="w_h_icon"></li>
+                            <li><img src="<?= IMAGES; ?>skills/github.svg" class="w_h_icon icono"></li>
+                            <li><img src="<?= IMAGES; ?>skills/openai.svg" class="w_h_icon icono"></li>
+                            <li><img src="<?= IMAGES; ?>skills/vscode.svg" class="w_h_icon"></li>
+                            <li><img src="<?= IMAGES; ?>skills/linux.svg" class="w_h_icon"></li>
+                            <li><img src="<?= IMAGES; ?>skills/windows.svg" class="w_h_icon icono"></li>
+                            <li><img src="<?= IMAGES; ?>skills/figma.svg" class="w_h_icon"></li>
+                            <li><img src="<?= IMAGES; ?>skills/photoshop.svg" class="w_h_icon"></li>
+                            <li><img src="<?= IMAGES; ?>skills/woocommerce.svg" class="w_h_icon"></li>
+                            <li><img src="<?= IMAGES; ?>skills/wordpress.svg" class="w_h_icon"></li>
                         </ul>
                     </li>
                 </ul>

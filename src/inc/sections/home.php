@@ -22,7 +22,7 @@
                 class="icono"
                 aria-label="LinkedIn profile"
                 title="LinkedIn profile"> 
-                    <img src="<?= IMAGES; ?>/skills/linkedin.svg" alt="linkedin" title="linkedin">
+                    <img src="<?= IMAGES; ?>/skills/linkedin.svg" alt="linkedin" title="linkedin" class="w_h_icon_small">
                     <span>LinkedIn</span> 
                 </a>
             </li>
@@ -31,7 +31,7 @@
                 target="_blank"
                 aria-label="GitHub profile"
                 title="GitHub profile"> 
-                    <img src="<?= IMAGES; ?>/skills/github.svg" alt="github" title="github" class="icono">
+                    <img src="<?= IMAGES; ?>/skills/github.svg" alt="github" title="github" class="w_h_icon_small icono">
                     <span>GitHub</span> 
                 </a>
             </li>            
