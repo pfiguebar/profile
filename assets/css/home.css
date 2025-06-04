@@ -1,0 +1,183 @@
+#home {
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+#home>ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    gap: 2rem;
+}
+
+/** Terminal */
+#home>ul>li:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    min-height: 300px;
+    background-color: #2b2b2b;
+    padding: 0;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    color: #fff;
+    overflow: hidden;
+}
+
+.text-container {
+    margin-left: 1%;
+    margin-top: 1%;
+    display: flex;
+    flex-direction: row;
+}
+
+.text {
+    display: flex;
+    flex-direction: row;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.type-indicator {
+    animation-name: blink;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+#tt {
+    height: fit-content;
+    margin: 0px !important;
+}
+
+/** Social Links */
+#home>ul>li:nth-child(2) {
+    display: flex;
+    justify-content: center;
+}
+
+#home>ul>li:nth-child(2) > ul {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+#home > ul > li:nth-child(2) > ul  li {
+    display: flex;
+    align-items: center;
+}
+
+/** foto pefiguer */
+#home>ul>li:nth-child(2) > ul > li:nth-child(1) > img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+#home>ul>li:nth-child(2) > ul > li:nth-child(2) > a, 
+#home>ul>li:nth-child(2) > ul > li:nth-child(3) > a  {
+    font-size: 5em;
+}
+
+
+
+#home>ul>li:nth-child(2) a {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: none;
+    color: var(--color-text);
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    transition: background-color 0.2s;
+}
+
+#home>ul>li:nth-child(2) a:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+#home>ul>li:nth-child(2) a img {
+    width: 24px;
+    height: 24px;
+}
+
+#home>ul>li:nth-child(2) a span {
+    font-size: 1.4rem;
+}
+
+
+
+#home>ul>li:nth-child(3) {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    
+}
+
+#home>ul>li:nth-child(3) span {
+    font-size: 1em;
+}
+
+/** Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+}
+
+.modal-content {
+    background-color: var(--color-background);
+    margin: 15% auto;
+    padding: 20px;
+    border-radius: 8px;
+    width: 70%;
+    max-width: 600px;
+    position: relative;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.close-modal {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    color: var(--color-text);
+}
+
+.close-modal:hover {
+    color: var(--color-primary);
+}
+
+.modal-body {
+    margin-top: 20px;
+    color: var(--color-text);
+}
+
+.modal.show {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

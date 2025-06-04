@@ -1,0 +1,58 @@
+.floatingButtons {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 1000;
+    list-style: none;
+}
+.floatingButtons li {
+    list-style: none;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.floatingButtons li:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.floatingButtons li a {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.floatingButtons li a:hover {
+    transform: scale(1.1);
+}
+
+.floatingButtons li a svg {
+    width: 24px;
+    height: 24px;
+    fill: white;
+}
+
+.floatingButtons li:nth-child(1) {
+    background-color: blue;
+    color: white;
+}
+
+.floatingButtons li:nth-child(2) {
+    background-color: black;
+    color: white;
+}
+
+.floatingButtons li:nth-child(3) {
+    background-color: green;
+    color: white;
+}
+
+

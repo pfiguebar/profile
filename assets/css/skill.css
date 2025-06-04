@@ -1,0 +1,76 @@
+#skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 200px;
+}
+
+#skills > span {
+    font-size: 6rem;
+    font-weight: bold;
+    text-align: center;   
+    color: transparent;    
+    text-shadow: 2px 2px 4px var(--color-text-dark);
+    
+}
+
+#skills div {
+    display: flex;
+    width: 60%;
+    padding: 50px;
+    flex-direction: column;   
+
+}
+
+
+#skills > ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+
+#skills > ul > li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+
+#skills ul li ul li span {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;   
+    color: transparent;    
+    text-shadow: 2px 2px 4px var(--color-text-dark);     
+}
+
+#skills ul li ul li ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: start;
+    align-self: center;
+    gap: 40px;
+    margin: 30px;
+}
+
+#skills ul li ul li ul li {
+    flex: 0 1 auto;
+    margin: 0.5rem 0;
+}
+
+
+
+@media (max-width: 768px) {
+    #skills div{
+        width: 100%;
+    }
+}

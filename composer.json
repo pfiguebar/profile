@@ -1,0 +1,21 @@
+{
+    "name": "infodto/website",
+    "version": "1.0.0",
+    "description": "Website Infodto",
+    "require": {
+        "php": "^8.2",
+        "mobiledetect/mobiledetectlib": "^2.8",
+        "monolog/monolog": "^3.0"
+    },
+    "config": {
+        "vendor-dir": "src/vendor",
+        "optimize-autoloader": true,
+        "preferred-install": "dist"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
