@@ -73,4 +73,8 @@
     #skills div{
         width: 100%;
     }
+
+    #skills > span {
+        font-size: 4rem;
+    }
 }
