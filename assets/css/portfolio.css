@@ -138,4 +138,8 @@
         overflow-x: auto;
         padding: 20px;
     }
+
+    .table tr:nth-child(1) {
+        display: none; 
+    }
 }

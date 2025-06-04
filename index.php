@@ -34,9 +34,7 @@
         <?php include __DIR__ . '/src/inc/sections/lang.php'; ?>        
     </main>
 
-    <footer>
-        <?php include __DIR__ . '/src/components/lang.php'; ?>
-        <?php include __DIR__ . '/src/components/contact.php'; ?>
+    <footer>       
     </footer>
     
 </body>

@@ -121,6 +121,10 @@ div.card div {
         font-size: 4rem;
     }
     
+    div.card {
+        padding: 0px!important;
+    }   
+
     div.card div {
         padding: 0px!important;
         width: 90%;
